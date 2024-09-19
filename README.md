@@ -65,4 +65,3 @@ O projeto vai abrir no seu navegador no endereço `http://localhost:3000`.
 
 ---
 
-Esse README é mais simples, focando nos passos básicos para configurar e rodar o projeto, ideal para quem está começando!
