@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Projeto de Lista Simples com React
 
-In the project directory, you can run:
+Este é um projeto básico feito em **React** que permite **adicionar**, **editar** e **remover** itens de uma lista. Ele foi desenvolvido para praticar a criação de componentes e o uso de propriedades no React.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Adicionar itens à lista.
+- Editar itens já adicionados.
+- Remover itens da lista.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Usadas
 
-### `npm test`
+- **React**: Uma biblioteca JavaScript para construir interfaces de usuário.
+- **JavaScript**: Linguagem de programação.
+- **HTML e CSS**: Usados dentro do JSX para a estrutura da interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Rodar o Projeto
 
-### `npm run build`
+### 1. Clonar o Repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Primeiro, você precisa clonar o repositório do projeto para a sua máquina. No terminal, digite o comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Instalar Dependências
 
-### `npm run eject`
+Depois de clonar o repositório, entre na pasta do projeto e instale as dependências:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd nome-do-repositorio
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Rodar o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Agora, execute o projeto com o comando:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+O projeto vai abrir no seu navegador no endereço `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Como Usar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Adicionar um item**: Digite um nome na caixa de texto e clique no botão "Adicionar".
+2. **Editar um item**: Clique no botão "Editar" ao lado do item que você quer modificar, mude o texto e clique em "Editar" novamente.
+3. **Remover um item**: Clique no botão "Remover" ao lado de qualquer item para excluí-lo da lista.
 
-### Code Splitting
+## Estrutura dos Arquivos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **App.js**: Este é o arquivo principal que contém todo o código da aplicação.
+- **index.js**: Arquivo que inicia o projeto no React.
 
-### Analyzing the Bundle Size
+## O Que Eu Aprendi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Como criar e usar **componentes** no React.
+- Como passar dados entre componentes usando **props**.
+- Como gerenciar o **estado** da aplicação com `useState`.
+- Como lidar com eventos, como o clique em botões e o envio de formulários.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse README é mais simples, focando nos passos básicos para configurar e rodar o projeto, ideal para quem está começando!
